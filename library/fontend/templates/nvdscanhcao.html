@@ -1,0 +1,45 @@
+{% extends "base.html" %} 
+
+{% block button %}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{% endblock %}  
+
+{% block content %}
+{% if nhanVien %}
+<section class="section-qltt" style="display:flex">
+    <div class="row">
+      <div class="col span_1_of_3 column-qltt1">
+          <h2>ACCOUNT</h2>
+          <p>Nhân viên: {{ nhanVien.HoTenNV }}</p>
+          <p>MSNV: {{ nhanVien.MSNV }} </p>
+          <h2>FUNCTIONS</h2>
+          <a href="#!"><p>Thêm sách</p></a>
+          <a href="#!"><p>Xóa sách</p></a>
+          <a href="#!"><p class="p-modify">Danh sách độc giả bị cảnh cáo</p></a>
+          <a href="/staff_info/{{nhanVien.MSNV}}"><p>Thông tin cá nhân</p></a>
+      </div>
+        <!-- <div class="col span_1_of_3 column-qltt" style="width: 10%;">
+        </div> -->
+        <div class="col span_2_of_3 column-qltt2">
+          <h2>DANH SÁCH CẢNH CÁO</h2>
+          <!-- <h3>Mã số Sách</h3> -->
+          <select name="orderby" id="orderby" class="select-list">
+              <option value="Sắp xếp theo">Sắp xếp theo</option>
+          </select>
+          <table class="table-list">
+              <tr>
+                  <th>STT</th>
+                  <th>MSDG</th>
+                  <th>Độc giả</th>
+                  <th>Mức cảnh cáo</th>
+              </tr>
+          </table>
+        </div>
+    </div>
+  </section>
+{% endif %}
+{% endblock %}
+  
+ 

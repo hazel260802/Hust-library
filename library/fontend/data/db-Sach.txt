@@ -1,0 +1,211 @@
+HQ904,Fundamentals of Wavelets,"Goswami, Jaideva",TWOJ,2002,228,273,,,signal_processing
+VY382,Data Smart,"Foreman, John",TWOJ,2016,235,296,,,data_science
+TD641,God Created the Integers,"Hawking, Stephen",DPFR,2002,197,213,,,mathematics
+UI321,Superfreakonomics,"Dubner, Stephen",TCSI,1950,179,134,,,economics
+HZ432,Orientalism,"Said, Edward",DPFR,1999,197,122,,,history
+EY806,"Nature of Statistical Learning Theory, The","Vapnik, Vladimir",EYBO,1950,230,198,,,data_science
+PK837,Integration of the Indian States,"Menon, V P",DWLR,1959,217,214,,,history
+DQ263,"Drunkard's Walk, The","Mlodinow, Leonard",DPFR,1954,197,119,,,science
+BR876,Image Processing & Mathematical Morphology,"Shih, Frank",UVNM,1958,241,225,,,signal_processing
+UB613,How to Think Like Sherlock Holmes,"Konnikova, Maria",DPFR,2018,240,188,,,psychology
+NW304,Data Scientists at Work,Sebastian Gutierrez,BSQZ,1986,230,298,,,data_science
+RU355,Slaughterhouse Five,"Vonnegut, Kurt",VRXR,1967,198,293,,,fiction
+UL833,Birth of a Theorem,"Villani, Cedric",DMXQ,1984,234,136,,,mathematics
+YL123,Structure & Interpretation of Computer Programs,"Sussman, Gerald",GSHE,1971,240,171,,,computer_science
+UW150,"Age of Wrath, The","Eraly, Abraham",DPFR,1970,238,171,,,history
+GB119,"Trial, The","Kafka, Frank",VRXR,1963,198,167,,,fiction
+PI130,Statistical Decision Theory',"Pratt, John",GSHE,1981,236,195,,,data_science
+KE935,Data Mining Handbook,"Nisbet, Robert",BSQZ,1974,242,240,,,data_science
+TD842,"New Machiavelli, The","Wells, H. G.",DPFR,1967,180,262,,,fiction
+XO157,Physics & Philosophy,"Heisenberg, Werner",DPFR,2000,197,132,,,science
+XH412,Making Software,"Oram, Andy",VZCI,1982,232,247,,,computer_science
+FO832,"Analysis, Vol I","Tao, Terence",HMQT,1975,248,229,,,mathematics
+XE246,Machine Learning for Hackers,"Conway, Drew",VZCI,2004,233,118,,,data_science
+JJ550,"Signal and the Noise, The","Silver, Nate",DPFR,1950,233,196,,,data_science
+IX381,Python for Data Analysis,"McKinney, Wes",VZCI,2009,233,129,,,data_science
+PF829,Introduction to Algorithms,"Cormen, Thomas",GSHE,1962,234,265,,,computer_science
+KM885,"Beautiful and the Damned, The","Deb, Siddhartha",DPFR,2010,198,257,,,nonfiction
+YZ781,"Outsider, The","Camus, Albert",DPFR,1960,198,198,,,fiction
+EG180,"Complete Sherlock Holmes, The - Vol I","Doyle, Arthur Conan",VRXR,2003,176,108,,,fiction
+FO391,"Complete Sherlock Holmes, The - Vol II","Doyle, Arthur Conan",VRXR,1962,176,239,,,fiction
+OY920,"Wealth of Nations, The","Smith, Adam",VRXR,1970,175,282,,,economics
+UE372,"Pillars of the Earth, The","Follett, Ken",VRXR,1958,176,114,,,fiction
+WN560,Mein Kampf,"Hitler, Adolf",UFHG,1950,212,261,,,nonfiction
+NO502,"Tao of Physics, The","Capra, Fritjof",DPFR,2019,179,241,,,science
+RZ431,Surely You're Joking Mr Feynman,"Feynman, Richard",VRXR,1993,198,106,,,science
+BH611,"Farewell to Arms, A","Hemingway, Ernest",UFHG,1989,179,270,,,fiction
+MB414,"Veteran, The","Forsyth, Frederick",KYGO,1978,177,168,,,fiction
+KD401,False Impressions,"Archer, Jeffery",QTOI,2013,177,124,,,fiction
+WR954,"Last Lecture, The","Pausch, Randy",USXU,1983,197,201,,,nonfiction
+CP632,Return of the Primitive,"Rand, Ayn",DPFR,2005,202,289,,,philosophy
+XM233,Jurassic Park,"Crichton, Michael",VRXR,1970,174,257,,,fiction
+ZB846,"Russian Journal, A","Steinbeck, John",DPFR,1996,196,122,,,nonfiction
+OT875,Tales of Mystery and Imagination,"Poe, Edgar Allen",TCSI,2000,172,214,,,fiction
+QS942,Freakonomics,"Dubner, Stephen",DPFR,1960,197,183,,,economics
+JP985,"Hidden Connections, The","Capra, Fritjof",TCSI,1995,197,153,,,science
+NU951,"Story of Philosophy, The","Durant, Will",YGCB,1965,170,186,,,philosophy
+GJ689,Asami Asami,"Deshpande, P L",VMIK,1958,205,226,,,fiction
+SC277,Journal of a Novel,"Steinbeck, John",DPFR,2007,196,250,,,fiction
+UK939,Once There Was a War,"Steinbeck, John",DPFR,2008,196,157,,,nonfiction
+GZ126,"Moon is Down, The","Steinbeck, John",DPFR,1996,196,179,,,fiction
+OU146,"Brethren, The","Grisham, John",VRXR,2006,174,172,,,fiction
+KI864,In a Free State,"Naipaul, V. S.",UFHG,1972,196,109,,,fiction
+IO623,Catch 22,"Heller, Joseph",VRXR,1984,178,115,,,fiction
+XY253,"Complete Mastermind, The",BBC,AIJD,1968,178,199,,,nonfiction
+WT735,Dylan on Dylan,"Dylan, Bob",VRXR,1986,197,220,,,nonfiction
+QP703,Soft Computing & Intelligent Systems,"Gupta, Madan",AQHI,1954,242,119,,,data_science
+XA960,Textbook of Economic Theory,"Stonier, Alfred",OBNG,1974,242,223,,,economics
+RG892,Econometric Analysis,"Greene, W. H.",OBNG,1955,242,141,,,economics
+US300,Learning OpenCV,"Bradsky, Gary",VZCI,1958,232,261,,,data_science
+KK465,Data Structures Using C & C++,"Tanenbaum, Andrew",HDHG,1982,235,117,,,computer_science
+EG160,"Computer Vision, A Modern Approach","Forsyth, David",OBNG,1989,255,243,,,data_science
+AN653,Principles of Communication Systems,"Taub, Schilling",WDQH,1987,240,119,,,computer_science
+XF323,Let Us C,"Kanetkar, Yashwant",HDHG,1984,213,204,,,computer_science
+CL659,"Amulet of Samarkand, The","Stroud, Jonathan",VRXR,1958,179,177,,,fiction
+KZ135,Crime and Punishment,"Dostoevsky, Fyodor",DPFR,1952,180,170,,,fiction
+BM177,Angels & Demons,"Brown, Dan",VRXR,1979,178,114,,,fiction
+FD238,"Argumentative Indian, The","Sen, Amartya",DJCZ,1988,209,177,,,nonfiction
+QW702,Sea of Poppies,"Ghosh, Amitav",DPFR,1993,197,285,,,fiction
+ZM165,"Idea of Justice, The","Sen, Amartya",DPFR,1989,212,286,,,nonfiction
+TE491,"Raisin in the Sun, A","Hansberry, Lorraine",DPFR,2006,175,298,,,fiction
+OQ802,All the President's Men,"Woodward, Bob",VRXR,1970,177,260,,,history
+QK216,"Prisoner of Birth, A","Archer, Jeffery",QTOI,1965,176,191,,,fiction
+TL858,Scoop!,"Nayar, Kuldip",TCSI,2003,216,252,,,history
+IM639,Ahe Manohar Tari,"Deshpande, Sunita",VMIK,1998,213,173,,,nonfiction
+EO828,"Last Mughal, The","Dalrymple, William",DPFR,2005,199,231,,,history
+SK862,"Social Choice & Welfare, Vol 39 No. 1",Various,EYBO,1955,235,131,,,economics
+UC501,Radiowaril Bhashane & Shrutika,"Deshpande, P L",VMIK,1961,213,241,,,nonfiction
+WE584,Gun Gayin Awadi,"Deshpande, P L",VMIK,1983,212,132,,,nonfiction
+TD815,Aghal Paghal,"Deshpande, P L",VMIK,1986,212,245,,,nonfiction
+WY202,Maqta-e-Ghalib,"Garg, Sanjay",VMIK,1982,221,266,,,fiction
+LJ183,Beyond Degrees,,TCSI,2001,222,126,,,nonfiction
+SZ456,Manasa,"Kale, V P",VMIK,2009,213,231,,,nonfiction
+MK284,India from Midnight to Milennium,"Tharoor, Shashi",DPFR,1976,198,134,,,history
+TB156,"World's Greatest Trials, The",,ERRH,2000,210,105,,,history
+IU448,"Great Indian Novel, The","Tharoor, Shashi",DPFR,2016,198,160,,,fiction
+AZ996,O Jerusalem!,"Lapierre, Dominique",GVTY,1994,217,157,,,history
+HI936,"City of Joy, The","Lapierre, Dominique",GVTY,1991,177,238,,,fiction
+MF288,Freedom at Midnight,"Lapierre, Dominique",GVTY,2018,167,241,,,history
+VU266,"Winter of Our Discontent, The","Steinbeck, John",DPFR,1992,196,259,,,fiction
+MT650,On Education,"Russell, Bertrand",ERRH,1984,203,272,,,philosophy
+CL747,Free Will,"Harris, Sam",GXXR,2001,203,220,,,philosophy
+DI513,Bookless in Baghdad,"Tharoor, Shashi",DPFR,1979,206,272,,,nonfiction
+TN746,"Case of the Lame Canary, The","Gardner, Earle Stanley",RWRO,1954,179,264,,,fiction
+YC850,"Theory of Everything, The","Hawking, Stephen",DTFI,1975,217,170,,,science
+PA673,New Markets & Other Essays,"Drucker, Peter",DPFR,1988,176,116,,,economics
+DK874,Electric Universe,"Bodanis, David",DPFR,1990,201,139,,,science
+OR388,"Hunchback of Notre Dame, The","Hugo, Victor",VRXR,1954,175,183,,,fiction
+LJ878,Burning Bright,"Steinbeck, John",DPFR,1974,175,225,,,fiction
+AD977,"Age of Discontuinity, The","Drucker, Peter",VRXR,1974,178,116,,,economics
+MS802,Doctor in the Nude,"Gordon, Richard",DPFR,2010,179,202,,,fiction
+HF948,Down and Out in Paris & London,"Orwell, George",DPFR,2000,179,197,,,nonfiction
+EF627,Identity & Violence,"Sen, Amartya",DPFR,2019,219,124,,,philosophy
+FU774,Beyond the Three Seas,"Dalrymple, William",VRXR,1976,197,179,,,history
+FB829,"World's Greatest Short Stories, The",,DTFI,1956,217,108,,,fiction
+XY296,Talking Straight,"Iacoca, Lee",MGAA,1951,175,259,,,nonfiction
+MK210,"Maugham's Collected Short Stories, Vol 3","Maugham, William S",RVEC,2000,171,299,,,fiction
+TA445,"Phantom of Manhattan, The","Forsyth, Frederick",EYBO,2009,180,166,,,fiction
+HE940,Ashenden of The British Agent,"Maugham, William S",RVEC,2006,160,212,,,fiction
+KM337,Zen & The Art of Motorcycle Maintenance,"Pirsig, Robert",RVEC,1983,172,111,,,philosophy
+CP453,"Great War for Civilization, The","Fisk, Robert",TCSI,1953,197,294,,,history
+ZM240,We the Living,"Rand, Ayn",DPFR,2011,178,282,,,fiction
+PA761,"Artist and the Mathematician, The","Aczel, Amir",MGAA,1970,186,287,,,science
+NB517,History of Western Philosophy,"Russell, Bertrand",ERRH,1957,213,112,,,philosophy
+ZP627,Selected Short Stories,,DTFI,2005,215,222,,,fiction
+XQ719,Rationality & Freedom,"Sen, Amartya",EYBO,2006,213,232,,,economics
+VH869,Clash of Civilizations and Remaking of the World Order,"Huntington, Samuel",CKKA,2002,228,161,,,history
+IV896,Uncommon Wisdom,"Capra, Fritjof",RWRO,1957,197,142,,,nonfiction
+LG228,One,"Bach, Richard",JFYQ,1960,172,162,,,nonfiction
+JR247,Karl Marx Biography,,RVEC,2020,162,288,,,nonfiction
+HQ492,To Sir With Love,Braithwaite,DPFR,2014,197,194,,,fiction
+BS190,Half A Life,"Naipaul, V S",TWOJ,2007,196,258,,,fiction
+WN557,"Discovery of India, The","Nehru, Jawaharlal",TWOJ,1997,230,184,,,history
+LE693,Apulki,"Deshpande, P L",DPFR,2011,211,183,,,nonfiction
+HW546,Unpopular Essays,"Russell, Bertrand",TCSI,1998,198,276,,,philosophy
+CZ870,"Deceiver, The","Forsyth, Frederick",DPFR,2010,178,184,,,fiction
+BK278,Veil: Secret Wars of the CIA,"Woodward, Bob",EYBO,2011,171,240,,,history
+FL319,Char Shabda,"Deshpande, P L",DWLR,1987,214,144,,,nonfiction
+MK147,Rosy is My Relative,"Durrell, Gerald",DPFR,1953,176,124,,,fiction
+WM926,"Moon and Sixpence, The","Maugham, William S",UVNM,1977,180,139,,,fiction
+VX530,Political Philosophers,,DPFR,1965,162,181,,,philosophy
+SZ231,"Short History of the World, A","Wells, H G",BSQZ,1992,197,256,,,history
+YH911,"Trembling of a Leaf, The","Maugham, William S",VRXR,2002,205,200,,,fiction
+RN405,Doctor on the Brain,"Gordon, Richard",DMXQ,1975,204,153,,,fiction
+YV641,Simpsons & Their Mathematical Secrets,"Singh, Simon",GSHE,2008,233,124,,,science
+SP480,Pattern Classification,"Duda, Hart",DPFR,2009,241,112,,,data_science
+LQ948,From Beirut to Jerusalem,"Friedman, Thomas",VRXR,2013,202,212,,,history
+JR772,"Code Book, The","Singh, Simon",GSHE,1975,197,297,,,science
+WZ270,"Age of the Warrior, The","Fisk, Robert",BSQZ,1971,197,113,,,history
+DI980,Final Crisis,,DPFR,1995,257,117,,,comic
+TW212,"Killing Joke, The",,DPFR,1976,283,294,,,comic
+CV114,Flashpoint,,VZCI,1999,265,177,,,comic
+IJ910,Batman Earth One,,HMQT,2012,265,247,,,comic
+KY711,Crisis on Infinite Earths,,VZCI,1972,258,232,,,comic
+CP683,"Numbers Behind Numb3rs, The","Devlin, Keith",DPFR,1989,202,228,,,science
+CW144,Superman Earth One - 1,,VZCI,1982,259,171,,,comic
+HD534,Superman Earth One - 2,,GSHE,2013,258,100,,,comic
+TU766,Justice League: Throne of Atlantis,,DPFR,1953,258,121,,,comic
+GW194,Justice League: The Villain's Journey,,DPFR,1963,258,151,,,comic
+AX206,"Death of Superman, The",,VRXR,1976,258,245,,,comic
+ZV207,History of the DC Universe,,VRXR,1990,258,256,,,comic
+GZ440,Batman: The Long Halloween,,VRXR,2001,258,298,,,comic
+PT154,"Life in Letters, A","Steinbeck, John",VRXR,2007,196,217,,,nonfiction
+VN355,"Information, The","Gleick, James",UFHG,1992,233,179,,,science
+NP909,"Journal of Economics, vol 106 No 3",,DPFR,1984,235,195,,,economics
+FG461,Elements of Information Theory,"Thomas, Joy",VRXR,2000,229,258,,,data_science
+LA180,Power Electronics - Rashid,"Rashid, Muhammad",UFHG,2000,235,237,,,computer_science
+QC422,Power Electronics - Mohan,"Mohan, Ned",KYGO,1963,237,194,,,computer_science
+KP235,Neural Networks,"Haykin, Simon",QTOI,1956,240,223,,,data_science
+SJ113,"Grapes of Wrath, The","Steinbeck, John",USXU,1982,196,219,,,fiction
+YT881,Vyakti ani Valli,"Deshpande, P L",DPFR,2013,211,269,,,nonfiction
+ZK370,Statistical Learning Theory,"Vapnik, Vladimir",VRXR,1977,228,228,,,data_science
+LK662,Empire of the Mughal - The Tainted Throne,"Rutherford, Alex",DPFR,1977,180,184,,,history
+EX677,Empire of the Mughal - Brothers at War,"Rutherford, Alex",TCSI,2009,180,220,,,history
+EP642,Empire of the Mughal - Ruler of the World,"Rutherford, Alex",DPFR,1963,180,157,,,history
+LZ397,Empire of the Mughal - The Serpent's Tooth,"Rutherford, Alex",TCSI,1999,180,298,,,history
+NA597,Empire of the Mughal - Raiders from the North,"Rutherford, Alex",YGCB,1958,180,160,,,history
+EP842,Mossad,"Baz-Zohar, Michael",VMIK,1975,236,106,,,history
+TV276,Jim Corbett Omnibus,"Corbett, Jim",DPFR,1996,223,115,,,nonfiction
+ZH520,20000 Leagues Under the Sea,"Verne, Jules",DPFR,1953,190,272,,,fiction
+TS832,Batatyachi Chal,Deshpande P L,DPFR,1978,200,138,,,fiction
+NC993,Hafasavnuk,Deshpande P L,VRXR,1979,211,196,,,fiction
+LB870,Urlasurla,Deshpande P L,UFHG,2013,211,166,,,fiction
+SZ209,Pointers in C,"Kanetkar, Yashwant",VRXR,2004,213,114,,,computer_science
+BL775,"Cathedral and the Bazaar, The","Raymond, Eric",AIJD,2003,217,243,,,computer_science
+EK940,Design with OpAmps,"Franco, Sergio",VRXR,1963,240,115,,,computer_science
+TL971,Think Complexity,"Downey, Allen",AQHI,1983,230,290,,,data_science
+EP522,"Devil's Advocate, The","West, Morris",OBNG,2019,178,147,,,fiction
+OH203,Ayn Rand Answers,"Rand, Ayn",OBNG,2016,203,215,,,philosophy
+SN894,Philosophy: Who Needs It,"Rand, Ayn",VZCI,1977,171,280,,,philosophy
+LK907,"World's Great Thinkers, The",,HDHG,1976,189,188,,,philosophy
+BV479,Data Analysis with Open Source Tools,"Janert, Phillip",OBNG,1954,230,136,,,data_science
+WT629,Broca's Brain,"Sagan, Carl",WDQH,1971,174,216,,,science
+GY484,Men of Mathematics,"Bell, E T",HDHG,2000,217,237,,,mathematics
+JW221,Oxford book of Modern Science Writing,"Dawkins, Richard",VRXR,1985,240,171,,,science
+DM751,"Justice, Judiciary and Democracy","Ranjan, Sudhanshu",DPFR,1996,224,124,,,philosophy
+KQ689,"Arthashastra, The",Kautiyla,VRXR,1982,214,175,,,philosophy
+OP146,We the People,Palkhivala,DJCZ,1992,216,171,,,philosophy
+JA390,We the Nation,Palkhivala,DPFR,1988,216,249,,,philosophy
+RJ958,"Courtroom Genius, The",Sorabjee,DPFR,1999,217,116,,,nonfiction
+DK133,Dongri to Dubai,"Zaidi, Hussain",DPFR,1975,216,180,,,nonfiction
+PZ943,"History of England, Foundation","Ackroyd, Peter",VRXR,1953,197,125,,,history
+JW970,City of Djinns,"Dalrymple, William",QTOI,2016,198,197,,,history
+SV630,India's Legal System,Nariman,TCSI,2018,177,280,,,nonfiction
+VE241,More Tears to Cry,"Sassoon, Jean",VMIK,1993,235,281,,,fiction
+JB627,"Ropemaker, The","Dickinson, Peter",DPFR,1963,196,286,,,fiction
+NZ936,Angels & Demons,"Brown, Dan",EYBO,1975,170,281,,,fiction
+JM820,"Judge, The",,VMIK,1978,170,265,,,fiction
+IH762,"Attorney, The",,VMIK,1985,170,291,,,fiction
+ZQ527,"Prince, The",Machiavelli,VMIK,1958,173,140,,,philosophy
+HX292,Eyeless in Gaza,"Huxley, Aldous",VMIK,1974,180,274,,,fiction
+YQ465,Tales of Beedle the Bard,"Rowling, J K",TCSI,1953,184,101,,,fiction
+LW361,Girl with the Dragon Tattoo,"Larsson, Steig",VMIK,1959,179,187,,,fiction
+QW187,Girl who kicked the Hornet's Nest,"Larsson, Steig",DPFR,1964,179,209,,,fiction
+NJ843,Girl who played with Fire,"Larsson, Steig",DTFI,1998,179,115,,,fiction
+LU492,Batman Handbook,,DPFR,1974,270,183,,,comic
+YD908,Murphy's Law,,GVTY,2002,178,253,,,nonfiction
+LI421,Structure and Randomness,"Tao, Terence",GVTY,1969,252,166,,,mathematics
+LO205,Image Processing with MATLAB,"Eddins, Steve",GVTY,2008,241,116,,,signal_processing
+YA292,Animal Farm,"Orwell, George",DPFR,1987,180,273,,,fiction
+EB951,"Idiot, The","Dostoevsky, Fyodor",ERRH,1953,197,136,,,fiction
+WX921,"Christmas Carol, A","Dickens, Charles",GXXR,1957,196,266,,,fiction

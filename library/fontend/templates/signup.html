@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block head %}
+{% endblock %}
+
+    {% block content %}
+    <section class="heading-rp">
+        <h1 style="color: white;">Signup</h1>
+    </section>
+
+    <section class="main-rp">
+        <div class="row">
+            <div class="col span_1_of_3">
+
+            </div>
+            <div class="col span_1_of_3 column-rp">
+                <h2 >SIGN UP</h2>
+                <form method="POST" action="/login">
+                    <select required>
+                        <option value="" disabled selected hidden>You are</option>
+                        <option value="staff">Staff</option>
+                        <option value = "student">Student</option>
+                    </select>
+                    <input type="email" class="input-box" placeholder="Email">
+                    <input type="password" class="input-box" placeholder="Password">
+                    <input type="password" class="input-box" placeholder="Confirm password">
+                    <button type="submit" class="btn1 btn-primary ">SIGN UP</button>
+                    <button type="submit" class="btn2 btn-primary "> OR LOGIN</button>
+                </form>
+            </div>
+            <div class="col span_1_of_3">
+               
+            </div>
+        </div>
+    </section>
+{% endblock %}

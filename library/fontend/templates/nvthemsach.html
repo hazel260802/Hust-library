@@ -1,0 +1,60 @@
+{% extends "base.html" %} 
+
+{% block button %}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{% endblock %}  
+
+{% block content %}
+{% if nhanVien %}
+<section class="section-qltt" style="display:flex">
+    <div class="row">
+      <div class="col span_1_of_3 column-qltt1">
+          <h2>ACCOUNT</h2>
+          <p>Nhân viên: {{ nhanVien.HoTenNV}} </p>
+          <p>MSNV {{ nhanVien.MSNV}}</p>
+          <h2>FUNCTIONS</h2>
+          <a href="#!"><p  class="p-modify">Thêm sách</p></a>
+          <a href="#!"><p>Xóa sách</p></a>
+          <a href="#!"><p>Danh sách độc giả bị cảnh cáo</p></a>
+          <a href="/staff_info/{{nhanVien.MSNV}}"><p>Thông tin cá nhân</p></a>
+      </div>
+        <!-- <div class="col span_1_of_3 column-qltt" style="width: 10%;">
+        </div> -->
+        <div class="col span_2_of_3 column-qltt2">
+          <h2>THÊM SÁCH</h2>
+          <h3>Mã số Sách</h3>
+          <form >
+              <input type="text" value="DG000001" class="input-text">
+          </form>
+          <h3>Tên Sách</h3>
+          <form >
+              <input type="text" value="Giáo trình nói xấu" class="input-text">
+          </form>
+          <h3>Tác giả</h3>
+          <form >
+              <input type="text" value="LHT và những người bạn" class="input-text">
+          </form>
+          <h3>MS NXB</h3>
+          <form >
+              <input type="text" value="NXB02" class="input-text">
+          </form>
+          <h3>Năm xuất bản</h3>
+          <form >
+              <input type="text" value="2022" class="input-text">
+          </form>
+          <h3>Số lượng</h3>
+          <form >
+              <input type="text" value="1" class="input-text">
+          </form>
+          <button>
+              THÊM
+          </button>
+        </div>
+    </div>
+  </section>
+{% endif %}
+{% endblock %}
+  
+ 

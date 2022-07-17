@@ -1,0 +1,64 @@
+{% extends "base.html" %} 
+{% block button %}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{% endblock %}   
+{% block content %}
+<section class="section-qltt" style="display:flex">
+    <div class="row">
+      <div class="col span_1_of_3 column-qltt1">
+          <h2>ACCOUNT</h2>
+          <p>Họ và Tên: {{ sinhVien.HoTenSV }}</p>
+          <p>MSSV: {{ sinhVien.MSSV }}</p>
+          <h2>FUNCTIONS</h2>
+          <a href="/student_borrow/{{ sinhVien.MSSV }}"><p class="p-modify">Tài liệu hiện đang mượn</p></a>
+          <a href= "/student_info/{{ sinhVien.MSSV }}"><p>Thông tin cá nhân</p></a>
+          <a href="/timkiem/{{ sinhVien.MSSV }}">Tìm kiếm</p></a>
+          <a href="#!"><p>Gia hạn</p></a>
+      </div>
+        <!-- <div class="col span_1_of_3 column-qltt" style="width: 10%;">
+        </div> -->
+        <div class="col span_2_of_3 column-qltt2">
+          <form action="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV) }}" method="POST">
+            <select required name="sort" id="orderby" class="select-list" onChange="window.location.href=this.value">
+              <option type="submit" value="" disabled selected hidden>Sắp xếp theo</option>
+              <option type="submit" name = "MaSach" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='MaSach')  }}">Mã sách</option>
+              <option type="submit" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='TenSach') }}">Tên sách</option>
+              <option type="submit" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='ThoiHanMuon') }}">Hạn Mượn</option>
+              <option type="submit" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='NgayTraSach') }}">Ngày Trả Sách</option>
+              <option type="submit" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='TinhTrang') }}">Tình Trạng</option>
+            </select>
+          </form>
+          <table class="table-list" style="margin-left: -130px !important;">
+            {% if not books|length %}
+            <h6> No results found. Please try again.</h6>
+            
+            {% else %}
+              <tr>
+                  <th scope="col" class="table-id">Mã sách</th>
+                  <th scope="col">Tên Sách</th>
+                  <th scope="col">Ngày Mượn</th>
+                  <th scope="col">Hạn Mượn</th>
+                  <th scope="col">Ngày Trả Sách</th>
+                  <th scope="col">Tình Trạng</th>
+              </tr>
+              
+              {% for book in books %}
+              <tr>
+                <td class="table-id result">{{book.Sach.MaSach}}</td>
+                <td class="table-id result">{{ book.Sach.TenSach}}</td>
+                <td class="table-id result">{{ book.MuonTraSach.NgayMuon}}</td>
+                <td class="table-id result">{{ book.MuonTraSach.ThoiHanMuon}}</td>
+                <td class="table-id result">{{ book.MuonTraSach.NgayTraSach}}</td>
+                <td class="table-id result">{{ book.MuonTraSach.TinhTrang}}</td>
+              </tr>
+              {% endfor %}  
+            {% endif %}
+          </table>
+        </div>
+    </div>
+  </section>
+{% endblock %}
+  
+ 
