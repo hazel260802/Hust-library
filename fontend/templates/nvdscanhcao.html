@@ -1,0 +1,66 @@
+{% extends "base.html" %} 
+{%block head%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+{%endblock%}
+{% block button %}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{% endblock %}  
+
+{% block content %}
+{% if nhanVien %}
+<section class="section-qltt" style="display:flex; height:600px">
+    <div class="row">
+      <div class="col span_1_of_3 column-qltt1">
+          <h2>ACCOUNT</h2>
+          <p>Nhân viên: {{ nhanVien.HoTenNV }}</p>
+          <p>MSNV: {{ nhanVien.MSNV }} </p>
+          <h2>FUNCTIONS</h2>
+          <a href="/staff_addbook/{{nhanVien.MSNV}}"><p>Thêm sách</p></a>
+          <a href="/staff_delbook/{{nhanVien.MSNV}}"><p>Xóa sách</p></a>
+          <a href="/staff_ds_muccanhcao/{{nhanVien.MSNV}}"><p class="p-modify">Danh sách độc giả bị cảnh cáo</p></a>
+          <a href="/staff_info/{{nhanVien.MSNV}}"><p>Thông tin cá nhân</p></a>
+      </div>
+        <!-- <div class="col span_1_of_3 column-qltt" style="width: 10%;">
+        </div> -->
+        <div class="col span_2_of_3 column-qltt2 search-result">
+          <form action="{{ url_for('views.staff_ds_muccanhcao',MSNV=nhanVien.MSNV) }}" method="POST">
+            <select required name="sort" id="orderby" class="select-list" onChange="window.location.href=this.value">
+              <option type="submit" value="" disabled selected hidden>Sắp xếp theo</option>
+              <option type="submit" name = "MSDG" value="{{ url_for('views.staff_ds_muccanhcao', sort='MSDG',MSNV=nhanVien.MSNV)  }}">MSDG</option>
+              <option type="submit" value="{{ url_for('views.staff_ds_muccanhcao', sort='DocGia',MSNV=nhanVien.MSNV) }}">Độc giả</option>
+              <option type="submit" value="{{ url_for('views.staff_ds_muccanhcao', sort='MucCanhCao', MSNV=nhanVien.MSNV) }}">Mức cảnh cáo</option>
+            </select>
+          </form>
+          <h2>DANH SÁCH CẢNH CÁO</h2>
+          <!-- <h3>Mã số Sách</h3> -->
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <table class="table-list" style="margin-left: -130px !important;">
+              <thead> 
+                <tr>
+                    <th scope="col">STT</th>
+                    <th scope="col" class="table-id">MSDG</th>
+                    <th scope="col">Độc giả</th>
+                    <th scope="col">Mức cảnh cáo</th>
+                </tr>
+              </thead>
+                
+              <tbody>
+                {% for sinhvien in sinhviens %}
+                <tr>
+                  <td class="table-id result">{{sinhvien.MSSV}}</td>
+                  <td class="table-id result">{{ sinhvien.MSSV }}</td>
+                  <td class="table-id result">{{ sinhvien.HoTenSV}}</td>
+                  <td class="table-id result">{{ sinhvien.MucCanhBao}}</td>
+                </tr>
+                {% endfor %}  
+              </tbody>
+            </table>
+        </div>
+    </div>
+  </section>
+{% endif %}
+{% endblock %}
+  
+ 

@@ -1,0 +1,62 @@
+{% extends "base.html" %} 
+{% import "bootstrap/wtf.html" as wtf %} 
+{% from "_formhelpers.html" import render_field %}
+{% block button %}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{% endblock %}  
+
+{% block content %}
+{% if nhanVien %}
+<section class="section-qltt" style="display:flex; height:750px">
+    <div class="row">
+      <div class="col span_1_of_3 column-qltt1">
+          <h2>ACCOUNT</h2>
+          <p>Nhân viên: {{ nhanVien.HoTenNV}} </p>
+          <p>MSNV {{ nhanVien.MSNV}}</p>
+          <h2>FUNCTIONS</h2>
+          <a href="/staff_addbook/{{nhanVien.MSNV}}"><p  class="p-modify">Thêm sách</p></a>
+          <a href="/staff_delbook/{{nhanVien.MSNV}}"><p>Xóa sách</p></a>
+          <a href="/staff_ds_muccanhcao/{{nhanVien.MSNV}}"><p>Danh sách độc giả bị cảnh cáo</p></a>
+          <a href="/staff_info/{{nhanVien.MSNV}}"><p>Thông tin cá nhân</p></a>
+      </div>
+        <!-- <div class="col span_1_of_3 column-qltt" style="width: 10%;">
+        </div> -->
+        <div class="col span_2_of_3 column-qltt2" style="height: 700px;">
+          <h2>THÊM SÁCH</h2>
+          {% if message %}
+            <p class="lead"><strong>{{ message }}</strong></p>
+
+          {% else %}
+            {% with errors = get_flashed_messages() %}
+                {% if errors %}
+                    {% for err in errors %}
+                        <div class="alert alert-danger alert-dismissible" role="alert ">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close" aria-hidden="true"></span></button>
+                            {{ err }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+            
+            <form method="POST" action="">
+                {{ form1.hidden_tag() }}
+                {{ render_field(form1.MaSach, type="text", class="input-text")}}
+                {{ render_field(form1.TenSach, type="text", class="input-text")}}
+                {{ render_field(form1.TacGia, type="text", class="input-text")}}
+                {{ render_field(form1.MSNXB, type="text", class="input-text")}}
+                {{ render_field(form1.NamXB, type="number", class="input-text")}}
+                {{ render_field(form1.SoTrang, type="number", class="input-text")}}
+                {{ render_field(form1.SoLuong, type="number", class="input-text")}}
+                {{ render_field(form1.LoaiSach, type="select", class="input-text")}}
+                <button class="relative" >{{ render_field(form1.submit,type="submit",style="color:transparent",class="btn btn-block login-button")}}</button>
+              </form>
+          {% endif %}
+        </div>
+    </div>
+  </section>
+{% endif %}
+{% endblock %}
+  
+ 

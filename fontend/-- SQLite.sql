@@ -1,0 +1,2 @@
+-- SQLite
+SELECT MSSV,EmailSV FROM SinhVien

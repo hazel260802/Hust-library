@@ -1,0 +1,168 @@
+{% extends "base.html" %} 
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles/vendors/grid.css') }}">
+{% endblock %}
+{% block title %}Home{% endblock %}
+{%block content%}
+    <!-- WELCOME SECTION -->
+    <section class="welcome">
+      <div class="row w-row">
+        <div class="col span_1_of_2 welcome-row text-center">
+          <h1 style="color:#F4976C;" >HUST</h1>
+          <h2 style="color:#F4976C;">LIBRARY MANAGEMENT SYSTEM</h2>
+          <p style="text-align: left;">This page has everything you need to get started. If you're already
+            a Bubble Pro, you can use parts of this boilerplate, or delete the whole page
+          </p>
+          
+          <div class="row btn-row">        
+            {% if not sinhVien.is_authenticated %}
+            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
+              <a style="color:white;" href="/login"><button class="btn btn-light ms-3 log-button">LOGIN</button></a>
+            </div>
+            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+              <a style="color:#303C6C;" href="/signup"><button class="btn btn-light ms-3 sign-button">SIGNUP</button></a>
+            </div>
+            {% elif not nhanVien.is_authenticated %}
+            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
+              <a style="color:white;" href="/student_borrow/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 log-button">BORROW</button></a>
+            </div>
+            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+              <a style="color:#303C6C;" href="/timkiem/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 sign-button">SEARCH</button></a>
+            </div>
+            {%else%}
+            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
+              <a style="color:white;" href="/staff_addbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 log-button">ADD BOOK</button></a>
+            </div>
+            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+              <a style="color:#303C6C;" href="/staff_delbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 sign-button">DELETE BOOK</button></a>
+            </div>
+            {%endif%}
+          </div>
+
+        </div>
+
+        <div class="col span_1_of_2 w-row text-center">
+          <img src="{{url_for('static', filename='images/anh1.svg')}}" />
+        </div>
+      </div>
+    </section>
+    <!-- FUNCTION SECTION -->
+    <section class="function">
+      <div class="text-md-left">
+        <h2>FUNCTION</h2>
+        <p class="p-function">What you can do in our online library</p>
+        <div class="row">
+          <div class="col span_1_of_3 function-row">
+            {% if not sinhVien.is_authenticated %}
+            <button class="icon-btn"><i class="fa fa-search"></i></button>
+            <h3 class="h3-function">Search for books available</h3>
+            <p>Please login to view this function. This function will not be allowed for people 
+              who is not HUST student or staff.</p>
+            {% elif not nhanVien.is_authenticated %}
+            <a href="/timkiem/{{ sinhVien.MSSV }}"><button class="icon-btn"><i class="fa fa-search"></i></button></a>
+            <h3 class="h3-function">Search for books available</h3>
+            <!-- <div class="input-group">
+              <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+              <button type="button" class="btn btn-outline-primary">search</button>
+            </div> -->
+            {% else %}
+            <a href="/staff_addbook/{{nhanVien.MSNV}}"><button class="icon-btn"><i class="fa fa-plus"></i></button></a>
+            <h3 class="h3-function">Add some new books</h3>
+            {% endif %}
+          </div>
+          <div class="col span_1_of_3 function-row">
+            {% if not sinhVien.is_authenticated %}
+            <button class="icon-btn"><i class="fa fa-book"></i></button>
+            <h3 class="h3-function">Manage borrowed books</h3>
+            <p>Please login to view this function. This function will not be allowed for people 
+            who is not HUST student or staff.</p>
+            {% elif not nhanVien.is_authenticated %}
+            <button class="icon-btn"><i class="fa fa-book"></i></button>
+            <a href="/student_borrow/{{ sinhVien.MSSV }}"><h3 class="h3-function">Manage borrowed books</h3></a>
+            <p>Student could view all the books they have borrowed or they are borrowing.
+            Please notice your return date.
+            </p>
+            {% else %}
+            <button class="icon-btn"><i class="fa fa-minus"></i></button>
+            <a href="/student_borrow/{{ sinhVien.MSSV }}"><h3 class="h3-function">Delete books</h3></a>
+            <p>Staff can update and delete the books which are no longer available.
+              Please check all the information carefully before submit.
+            </p>
+            {% endif %}
+          </div>
+          <div class="col span_1_of_3 function-row">
+            {% if not sinhVien.is_authenticated %}
+            <button class="icon-btn"><i class="fa fa-pencil"></i></button>
+            <h3 class="h3-function">Student/Staff information</h3>
+            <p>Please login to view this function. This function will not be allowed for people 
+              who is not HUST student or staff.</p>
+            {% elif not nhanVien.is_authenticated %}
+            <button class="icon-btn"><i class="fa fa-pencil"></i></button>
+            <a href="/student_info/{{ sinhVien.MSSV }}"><h3 class="h3-function">Student information</h3></a>
+            <p>Welcome {{ sinhVien.HoTenSV}}. This is your personal information. 
+              If some of them is not accurate.
+              Please contact the librarian to check and change.
+            </p>
+            {% else %}
+            <button class="icon-btn"><i class="fa fa-pencil"></i></button>
+            <a href="/staff_info/{{nhanVien.MSNV}}"><h3 class="h3-function">Staff information</h3></a>
+            <p>Welcome {{ nhanVien.HoTenNV}}. This is your work personal information. </p>
+            {%endif%}
+          </div>
+        </div>
+      </div>      
+    </section>
+    <!-- NEWS SECTION -->
+    <section class="news">
+      <div class="text-md-left">
+        <h2>NEWS</h2>
+        <p >Updated our latest policy and news from the library</p>
+        <div class="row news-row">
+          <div class="col span_1_of_3 function-row">
+            <div style="height: 320px">
+              <img src="{{url_for('static', filename='images/anh2.svg')}}" style="width: 250px"  class="news-image img" alt="anh2">
+              <h3 class="h3-function">Loan Policy</h3>
+              <p>Find out how many books you can borrow and for how long</p>
+            </div>
+            <div class="view-button">
+              <button class="btn btn-light ms-3 btn-news" href="#contact">View more > </button>
+            </div>
+          </div>
+
+          <div class="col span_1_of_3 function-row">  
+              <div style="height: 320px">
+              <img src="{{url_for('static', filename='images/anh3.svg')}}" style="width: 249px" class="news-image img" alt="anh3">
+                <h3 class="h3-function">Overdues loans and fines</h3>
+                <p>If you have an overdue books or damaged items,
+              find out more about our compensation system</p>
+              </div>         
+
+              <div class="view-button">
+                <button class="btn btn-light ms-3 btn-news" href="#contact">View more > </button>
+              </div>
+            </div>
+
+          <div class="col span_1_of_3 function-row">
+            <div style="height: 320px">
+              <img src="{{url_for('static', filename='images/anh4.svg')}}" style="width: 314px" class="news-image img" alt="anh4">
+              <h3 class="h3-function">Library terms of use</h3>
+              <p>Find out about the dos and don'ts in the library.</p>
+            </div>
+            <div class="view-button">
+              <button class="btn btn-light ms-3 btn-news" href="#contact">View more > </button>
+            </div>
+          </div>
+        </div>
+
+      </div>      
+    </section>
+  <!-- ADDITIONAL -->
+  <div class="additional">
+    <!-- <img src="images/anh5.png" alt="anh5" class="img" style="width:200%;"> -->
+    <div class="bottom-left">
+      <button class="icon-btn"><i class="fa fa-eye"></i></button>
+      <h3 class="h3-function">Our library</h3>
+    </div>
+  </div>
+  
+{%endblock%}

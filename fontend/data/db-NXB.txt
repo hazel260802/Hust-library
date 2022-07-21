@@ -1,0 +1,33 @@
+TWOJ,Wiley
+DPFR,Penguin
+TCSI,HarperCollins
+EYBO,Springer
+DWLR,Orient Blackswan
+UVNM,CRC
+BSQZ,Apress
+VRXR,Random House
+DMXQ,Bodley Head
+GSHE,MIT Press
+VZCI,O'Reilly
+HMQT,HBA
+UFHG,Rupa
+KYGO,Transworld
+QTOI,Pan
+USXU,Hyperion
+YGCB,Pocket
+VMIK,Mauj
+AIJD,BBC
+AQHI,Elsevier
+OBNG,Pearson
+HDHG,Prentice Hall
+WDQH,TMH
+DJCZ,Picador
+ERRH,Routledge
+GVTY,vikas
+GXXR,FreePress
+RWRO,Fontana
+DTFI,Jaico
+MGAA,HighStakes
+RVEC,Vintage
+CKKA,Simon&Schuster
+JFYQ,Dell
