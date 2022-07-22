@@ -16,7 +16,7 @@ views = Blueprint('views', __name__)
 
 @views.route('/')
 def home():
-	return render_template("home.html", nhanVien=current_user, sinhVien=current_user)
+	return render_template("home.html",nhanVien=current_user,sinhVien=current_user)
 @views.route('/404')
 def error_404():
     return render_template('404.html'), 404
@@ -109,7 +109,8 @@ def student_borrow(MSSV):
     # print(books)
     # books = MuonTraSach.query.filter_by(MSSV=MSSV).all()
     # sach= Sach.query.filter_by(books.MaSach).all()
-    return render_template("qlymuontra.html", sinhVien=current_user, MSSV=MSSV, books = books, length = len(books),sort=sort)
+        return render_template("qlymuontra.html", sinhVien=current_user, MSSV=MSSV, books = books, length = len(books),sort=sort)
+    return render_template("qlymuontra.html", sinhVien=current_user, MSSV=MSSV, books = books, length = len(books))
 
 
 #---------------------------------------NHAN VIEN -------------------------------------------

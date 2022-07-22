@@ -29,11 +29,12 @@
               <option type="submit" value="{{ url_for('views.student_borrow',MSSV=sinhVien.MSSV, sort='TinhTrang') }}">Tình Trạng</option>
             </select>
           </form>
+          {% if not books|length %}
+          <br>
+          <h6> You haven't borrow any book yet.</h6>
+          
+          {% else %}
           <table class="table-list" style="margin-left: -130px !important;">
-            {% if not books|length %}
-            <h6> No results found. Please try again.</h6>
-            
-            {% else %}
               <tr>
                   <th scope="col" class="table-id">Mã sách</th>
                   <th scope="col">Tên Sách</th>
@@ -53,8 +54,8 @@
                 <td class="table-id result">{{ book.MuonTraSach.TinhTrang}}</td>
               </tr>
               {% endfor %}  
-            {% endif %}
           </table>
+          {% endif %}
         </div>
     </div>
   </section>
