@@ -16,7 +16,7 @@ views = Blueprint('views', __name__)
 
 @views.route('/')
 def home():
-	return render_template("home.html",nhanVien=current_user,sinhVien=current_user)
+	return render_template("home.html", nhanVien=current_user, sinhVien=current_user)
 @views.route('/404')
 def error_404():
     return render_template('404.html'), 404

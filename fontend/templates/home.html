@@ -2,6 +2,17 @@
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='styles/vendors/grid.css') }}">
 {% endblock %}
+{% block button %}
+{% if not (sinhVien.is_authenticated or nhanVien.is_authenticated) %}
+<li class="nav-item log_sign-button">
+    <a style="color:white;" href="/login"><button class="btn btn-light ms-3 log_sign-button">SIGN UP OR LOGIN</button></a>
+</li> 
+{%else%}
+<li class="nav-item">
+  <a class="nav-link" style="color:#303C6C;" href="/logout">Logout</a>
+</li>
+{%endif%}
+{% endblock %}    
 {% block title %}Home{% endblock %}
 {%block content%}
     <!-- WELCOME SECTION -->
@@ -15,27 +26,27 @@
           </p>
           
           <div class="row btn-row">        
-            {% if not sinhVien.is_authenticated %}
-            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
-              <a style="color:white;" href="/login"><button class="btn btn-light ms-3 log-button">LOGIN</button></a>
-            </div>
-            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
-              <a style="color:#303C6C;" href="/signup"><button class="btn btn-light ms-3 sign-button">SIGNUP</button></a>
-            </div>
-            {% elif not nhanVien.is_authenticated %}
-            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
-              <a style="color:white;" href="/student_borrow/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 log-button">BORROW</button></a>
-            </div>
-            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
-              <a style="color:#303C6C;" href="/timkiem/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 sign-button">SEARCH</button></a>
-            </div>
+            {% if sinhVien.is_authenticated %}
+              <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 100px;">
+                <a style="color:white;" href="/student_borrow/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 log-button">BORROW</button></a>
+              </div>
+              <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+                <a style="color:#303C6C;" href="/timkiem/{{ sinhVien.MSSV }}"><button class="btn btn-light ms-3 sign-button">SEARCH</button></a>
+              </div>
+            {% elif nhanVien.is_authenticated %}
+              <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 100px;">
+                <a style="color:white;" href="/staff_addbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 log-button">ADD BOOK</button></a>
+              </div>
+              <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+                <a style="color:#303C6C;" href="/staff_delbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 sign-button">DELETE BOOK</button></a>
+              </div>
             {%else%}
-            <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 50px;">
-              <a style="color:white;" href="/staff_addbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 log-button">ADD BOOK</button></a>
-            </div>
-            <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
-              <a style="color:#303C6C;" href="/staff_delbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 sign-button">DELETE BOOK</button></a>
-            </div>
+              <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 100px;">
+                <a style="color:white;" href="/login"><button class="btn btn-light ms-3 log-button">LOGIN</button></a>
+              </div>
+              <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
+                <a style="color:#303C6C;" href="/signup"><button class="btn btn-light ms-3 sign-button">SIGNUP</button></a>
+              </div>
             {%endif%}
           </div>
 
