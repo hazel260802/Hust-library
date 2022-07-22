@@ -13,7 +13,12 @@
     - Hit control, shift and P on keyboard: vscode command pallet
     - Type python and select interpreter
         ![Interpreter](fontend/static/images/Untitled.png)
-3. RUN APP: 
+3. Add more extensions on Flask: Web Forms
+    ```
+    pip install Flask-WTF
+    pip install Flask-Bootstrap4
+    ```
+4. RUN APP: 
     ```
     python3 main.py
     ```
