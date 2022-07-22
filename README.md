@@ -1,6 +1,6 @@
 # Hust-library
 ## THIS IS THE MINI PROJECT TO DEVELOP THE LIBRARY WEBSITE FOR HUST STUDENT AND STAFF 
-![Interpreter](fontend/static/images/website.png)
+![Website](fontend/static/images/website.png)
 ###### PART 1: TO RUN THIS PROGRAM, IT REQUIRES TO INSTALL SOME RELEVANT PACKAGES.
 1. INSTALLING FLASK:
     ```
