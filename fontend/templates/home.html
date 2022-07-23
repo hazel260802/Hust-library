@@ -41,7 +41,7 @@
               <div class="col span_1_of_2 welcome-row signup-button" style="width: 200px;">
                 <a style="color:#303C6C;" href="/staff_delbook/{{nhanVien.MSNV}}"><button class="btn btn-light ms-3 sign-button">DELETE BOOK</button></a>
               </div>
-            {%else%}
+            {%elif not sinhVien.is_authenticated and not nhanVien.is_authenticated %}
               <div class="col span_1_of_2 welcome-row login-button" style="width: 200px; padding-left: 100px;">
                 <a style="color:white;" href="/login"><button class="btn btn-light ms-3 log-button">LOGIN</button></a>
               </div>
