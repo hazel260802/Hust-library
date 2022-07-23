@@ -795,7 +795,8 @@ table.dataTable thead .sorting_desc_disabled:before {
 .column-footer a{
   position: relative;
   top: 80px;
-  line-height: 50px;
+  line-height: 80px;
+  display:flex;
 }
 .column-footer h3{
   margin-bottom: 30px;
@@ -807,13 +808,25 @@ table.dataTable thead .sorting_desc_disabled:before {
   margin-bottom: 8px;
   font-weight: 450;
   font-size: 90%;
+  margin-left: 15px;
 }
+/* .column-footer i{
+background-color: #303C6C;
+border-radius: 7px 7px 7px 7px;
+text-align: center;
+color:#040B24;
+} */
 .column-footer-2 h5{
   position: relative;
   top: 150px;
   font-weight: 500;
   font-size: 80%;
 }
+.column-footer a:hover,
+.column-footer a:active{
+  transform: translateY(-4px);
+}
+
 /* NHAN VIEN: MUC CANH CAO */
 .scrollspy-example {
   position: relative;

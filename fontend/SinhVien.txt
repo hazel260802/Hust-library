@@ -1,0 +1,100 @@
+20212781,AN NGỌC HÀ,Nam,Trường Điện - Điện tử,2003/03/31,ha.an212781@sis.hust.edu.vn,1
+20205319,An Việt Hoàng,Nữ,Trường Cơ khí,2002/01/14,hoang.av205319@sis.hust.edu.vn,1
+20206886,Ba Thế Minh,Nam,Trường Cơ khí,2002/07/18,minh.bt206886@sis.hust.edu.vn,0
+20211971,BẠCH ĐĂNG QUANG,Nam,Viện Kỹ thuật Hóa học,2003/04/02,quang.bd211971@sis.hust.edu.vn,2
+20204462,Bạch Đình Vương,Nữ,Trường Cơ khí,2002/02/13,vuong.bd204462@sis.hust.edu.vn,2
+20190990,Bạch Hải Nghi,Nam,Viện Kỹ thuật Hóa học,2001/03/18,nghi.bh190990@sis.hust.edu.vn,3
+20210459,Bạch Lê Tuấn Khải,Nam,Viện Công nghệ Thông tin và Truyền thông,2003/06/25,khai.blt210459@sis.hust.edu.vn,2
+20192508,Bạch Minh Yến,Nữ,Viện Kinh tế và Quản lý,2001/09/03,yen.bm192508@sis.hust.edu.vn,3
+20216933,BẠCH NGỌC HƯNG,Nam,Viện Toán ứng dụng và Tin học,2003/01/11,hung.bn216933@sis.hust.edu.vn,3
+20213275,BẠCH QUỲNH MAI,Nam,Viện Kinh tế và Quản lý,2003/06/16,mai.bq213275@sis.hust.edu.vn,3
+20211328,BẠCH THỊ KHÁNH HUYỀN,Nữ,Viện Công nghệ Sinh học và công nghệ Thực phẩm,2003/10/07,huyen.btk211328@sis.hust.edu.vn,2
+20193137,Bạch Võ Khánh Toàn,Nam,Trường Điện - Điện tử,2001/10/13,toan.bvk193137@sis.hust.edu.vn,1
+20193239,Bàn Thị Thuỷ,Nam,Trường Điện - Điện tử,2001/07/19,thuy.bt193239@sis.hust.edu.vn,2
+20192856,Bàng Thị Hoa,Nữ,Trường Điện - Điện tử,2001/07/13,hoa.bt192856@sis.hust.edu.vn,1
+20211716,BÙI ANH ĐẠI,Nam,Viện Kỹ thuật Hóa học,2003/10/05,dai.ba211716@sis.hust.edu.vn,3
+20202338,Bùi Anh Dũng,Nam,Trường Điện - Điện tử,2002/09/21,dung.ba202338@sis.hust.edu.vn,0
+20194610,Bùi Anh Lượng,Nữ,Viện Công nghệ Thông tin và Truyền thông,2001/12/01,luong.ba194610@sis.hust.edu.vn,2
+20212183,BÙI ÁNH MAI,Nam,Viện Kỹ thuật Hóa học,2003/03/21,mai.ba212183@sis.hust.edu.vn,1
+20171858,Bùi Anh Trường,Nam,Trường Cơ khí,1999/10/12,truong.ba171858@sis.hust.edu.vn,0
+20216898,BÙI ANH TÚ,Nữ,Viện Toán ứng dụng và Tin học,2003/01/02,tu.ba216898@sis.hust.edu.vn,2
+20204615,Bùi Anh Tuấn,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/02/25,tuan.ba204615@sis.hust.edu.vn,3
+20213106,BÙI ÁNH VÂN,Nam,Viện Kinh tế và Quản lý,2003/01/21,van.ba213106@sis.hust.edu.vn,0
+20195065,Bùi Bách La,Nữ,Trường Cơ khí,2001/11/22,la.bb195065@sis.hust.edu.vn,2
+20203675,Bùi Bích Diệu,Nam,Trường Điện - Điện tử,2002/11/30,dieu.bb203675@sis.hust.edu.vn,3
+20212439,BÙI CHÍ HƯNG,Nam,Trường Điện - Điện tử,2003/10/10,hung.bc212439@sis.hust.edu.vn,3
+20206929,Bùi Chiến Thắng,Nữ,Trường Cơ khí,2002/01/01,thang.bc206929@sis.hust.edu.vn,2
+20206191,Bùi Công Danh,Nam,Viện Toán ứng dụng và Tin học,2002/06/14,danh.bc206191@sis.hust.edu.vn,0
+20190768,Bùi Công Duy,Nam,Viện Kỹ thuật Hóa học,2001/06/29,duy.bc190768@sis.hust.edu.vn,1
+20212794,BÙI CÔNG HIẾN,Nữ,Trường Điện - Điện tử,2003/10/20,hien.bc212794@sis.hust.edu.vn,1
+20215376,BÙI CÔNG HOÀNG,Nam,Viện Công nghệ Thông tin và Truyền thông,2003/08/02,hoang.bc215376@sis.hust.edu.vn,1
+20191232,Bùi Công Khánh,Nam,Viện Kỹ thuật Hóa học,2001/09/14,khanh.bc191232@sis.hust.edu.vn,1
+20184998,Bùi Công Lực,Nữ,Trường Cơ khí,2000/12/24,luc.bc184998@sis.hust.edu.vn,0
+20203834,Bùi Đại Dương,Nam,Trường Điện - Điện tử,2002/08/27,duong.bd203834@sis.hust.edu.vn,3
+20204529,Bùi Đăng Đức,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/11/06,duc.bd204529@sis.hust.edu.vn,2
+20191233,Bùi Đăng Khoa,Nữ,Viện Kỹ thuật Hóa học,2001/10/02,khoa.bd191233@sis.hust.edu.vn,1
+20217422,BÙI ĐĂNG SƠN,Nam,Viện Vật lý Kỹ thuật,2003/05/19,son.bd217422@sis.hust.edu.vn,3
+20200568,Bùi Danh Tùng,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/01/27,tung.bd200568@sis.hust.edu.vn,1
+20174869,Bùi Diệu Linh,Nữ,Viện Công nghệ Sinh học và công nghệ Thực phẩm,1999/02/22,linh.bd174869@sis.hust.edu.vn,2
+20212186,BÙI DIỆU MY,Nam,Viện Kỹ thuật Hóa học,2003/11/02,my.bd212186@sis.hust.edu.vn,0
+20205464,Bùi Đình Tuyền,Nam,Trường Cơ khí,2002/01/10,tuyen.bd205464@sis.hust.edu.vn,0
+20183467,Bùi Đình Văn,Nữ,Trường Cơ khí,2000/08/26,van.bd183467@sis.hust.edu.vn,2
+20213308,BÙI ĐỖ HẢI YẾN,Nam,Viện Kinh tế và Quản lý,2003/04/29,yen.bdh213308@sis.hust.edu.vn,1
+20203545,Bùi Đoàn Nhật Quang,Nam,Trường Điện - Điện tử,2002/06/05,quang.bdn203545@sis.hust.edu.vn,2
+20192676,Bùi Đức Anh,Nữ,Trường Điện - Điện tử,2001/12/14,anh.bd192676@sis.hust.edu.vn,1
+20190713,Bùi Đức Cường,Nam,Viện Kỹ thuật Hóa học,2001/04/13,cuong.bd190713@sis.hust.edu.vn,0
+20200147,Bùi Đức Đăng,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/03/05,dang.bd200147@sis.hust.edu.vn,1
+20202375,Bùi Đức Hiếu,Nữ,Trường Điện - Điện tử,2002/06/16,hieu.bd202375@sis.hust.edu.vn,1
+20192863,Bùi Đức Hoàng,Nam,Trường Điện - Điện tử,2001/03/13,hoang.bd192863@sis.hust.edu.vn,0
+20206142,Bùi Đức Hoàng,Nam,Viện Toán ứng dụng và Tin học,2002/01/25,hoang.bd206142@sis.hust.edu.vn,0
+20203960,Bùi Đức Hùng,Nữ,Viện Khoa học và Công nghệ Môi trường,2002/12/13,hung.bd203960@sis.hust.edu.vn,0
+20193394,Bùi Đức Huy,Nam,Viện Khoa học và Công nghệ Môi trường,2001/04/14,huy.bd193394@sis.hust.edu.vn,3
+20210458,Bùi Đức Khải,Nam,Trường Cơ khí,2003/02/02,khai.bd210458@sis.hust.edu.vn,3
+20195469,Bùi Đức Khang,Nữ,Trường Cơ khí,2001/09/03,khang.bd195469@sis.hust.edu.vn,3
+20210484,Bùi Đức Khoa,Nam,Trường Cơ khí,2003/06/18,khoa.bd210484@sis.hust.edu.vn,0
+20203637,Bùi Đức Lâm Tùng,Nam,Trường Điện - Điện tử,2002/02/18,tung.bdl203637@sis.hust.edu.vn,0
+20187465,Bùi Đức Linh,Nữ,Văn phòng các chương trình quốc tế,2000/11/30,linh.bd187465@sis.hust.edu.vn,0
+20184547,Bùi Đức Minh,Nam,Trường Cơ khí,2000/11/09,minh.bd184547@sis.hust.edu.vn,3
+20193270,Bùi Đức Minh,Nam,Trường Điện - Điện tử,2001/05/05,minh.bd193270@sis.hust.edu.vn,2
+20203036,Bùi Đức Nghĩa,Nữ,Viện Kinh tế và Quản lý,2002/04/21,nghia.bd203036@sis.hust.edu.vn,0
+20194345,Bùi Đức Nhật,Nam,Viện Công nghệ Thông tin và Truyền thông,2001/11/27,nhat.bd194345@sis.hust.edu.vn,2
+20200524,Bùi Đức Sơn,Nam,Trường Điện - Điện tử,2002/01/13,son.bd200524@sis.hust.edu.vn,0
+20181742,Bùi Đức Tâm,Nữ,Trường Điện - Điện tử,2000/08/22,tam.bd181742@sis.hust.edu.vn,0
+20192621,Bùi Đức Thắng,Nam,Viện Kinh tế và Quản lý,2001/04/12,thang.bd192621@sis.hust.edu.vn,1
+20205421,Bùi Đức Thắng,Nam,Trường Cơ khí,2002/03/24,thang.bd205421@sis.hust.edu.vn,3
+20202531,Bùi Đức Thiện,Nữ,Trường Điện - Điện tử,2002/03/31,thien.bd202531@sis.hust.edu.vn,3
+20181048,Bùi Đức Thịnh,Nam,Viện Kỹ thuật Hóa học,2000/03/19,thinh.bd181048@sis.hust.edu.vn,2
+20216722,BÙI ĐỨC TOÀN,Nam,Trường Cơ khí,2003/04/20,toan.bd216722@sis.hust.edu.vn,0
+20181812,Bùi Đức Tuân,Nữ,Trường Điện - Điện tử,2000/02/29,tuan.bd181812@sis.hust.edu.vn,1
+20193959,Bùi Đức Tùng,Nam,Trường Cơ khí,2001/04/14,tung.bd193959@sis.hust.edu.vn,1
+20193710,Bùi Dương Anh,Nam,Trường Cơ khí,2001/01/30,anh.bd193710@sis.hust.edu.vn,2
+20204271,Bùi Duy Cảnh,Nữ,Trường Cơ khí,2002/04/26,canh.bd204271@sis.hust.edu.vn,0
+20184781,Bùi Duy Đức,Nam,Trường Cơ khí,2000/06/04,duc.bd184781@sis.hust.edu.vn,0
+20200208,Bùi Duy Hiển,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/02/03,hien.bd200208@sis.hust.edu.vn,0
+20216827,BÙI DUY HIỂN,Nữ,Viện Toán ứng dụng và Tin học,2003/11/25,hien.bd216827@sis.hust.edu.vn,3
+20194672,Bùi Duy Thành,Nam,Viện Công nghệ Thông tin và Truyền thông,2001/04/11,thanh.bd194672@sis.hust.edu.vn,2
+20202204,Bùi Duy Thành,Nam,Trường Điện - Điện tử,2002/05/27,thanh.bd202204@sis.hust.edu.vn,2
+20182817,Bùi Duy Tiến,Nữ,Trường Điện - Điện tử,2000/10/21,tien.bd182817@sis.hust.edu.vn,3
+20206963,Bùi Duy Vũ,Nam,Trường Cơ khí,2002/11/01,vu.bd206963@sis.hust.edu.vn,1
+20207323,Bùi Dy Liên,Nam,Viện Dệt may - Da giầy và Thời trang,2002/12/18,lien.bd207323@sis.hust.edu.vn,1
+20203019,Bùi Gia Hưng,Nữ,Viện Kinh tế và Quản lý,2002/12/12,hung.bg203019@sis.hust.edu.vn,0
+20215711,BÙI GIA HUY,Nam,Trường Cơ khí,2003/06/10,huy.bg215711@sis.hust.edu.vn,1
+20193457,Bùi Hà Trang,Nam,Viện Khoa học và Công nghệ Môi trường,2001/05/22,trang.bh193457@sis.hust.edu.vn,0
+20204638,Bùi Hải Đăng,Nữ,Viện Công nghệ Thông tin và Truyền thông,2002/01/08,dang.bh204638@sis.hust.edu.vn,1
+20214953,BÙI HẢI DƯƠNG,Nam,Viện Công nghệ Thông tin và Truyền thông,2003/01/01,duong.bh214953@sis.hust.edu.vn,1
+20196915,Bùi Hải Hưng,Nam,Trường Cơ khí,2001/10/29,hung.bh196915@sis.hust.edu.vn,0
+20193363,Bùi Hoa Dương,Nữ,Viện Khoa học và Công nghệ Môi trường,2001/08/19,duong.bh193363@sis.hust.edu.vn,3
+20196796,Bùi Hoài Nam,Nam,Trường Cơ khí,2001/11/05,nam.bh196796@sis.hust.edu.vn,2
+20215298,BÙI HOÀNG ANH,Nam,Viện Công nghệ Thông tin và Truyền thông,2003/01/25,anh.bh215298@sis.hust.edu.vn,3
+20215540,BÙI HOÀNG DŨNG,Nữ,Viện Công nghệ Thông tin và Truyền thông,2003/01/04,dung.bh215540@sis.hust.edu.vn,0
+20205149,Bùi Hoàng Hà,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/02/03,ha.bh205149@sis.hust.edu.vn,3
+20211758,BÙI HOÀNG HẢI,Nam,Viện Kỹ thuật Hóa học,2003/03/25,hai.bh211758@sis.hust.edu.vn,0
+20194556,Bùi Hoàng Hiệp,Nữ,Viện Công nghệ Thông tin và Truyền thông,2001/05/07,hiep.bh194556@sis.hust.edu.vn,1
+20211868,BÙI HOÀNG LONG,Nam,Viện Kỹ thuật Hóa học,2003/04/08,long.bh211868@sis.hust.edu.vn,2
+20212897,BÙI HOÀNG NAM,Nam,Trường Điện - Điện tử,2003/03/03,nam.bh212897@sis.hust.edu.vn,2
+20191643,Bùi Hoàng Tú,Nữ,Trường Điện - Điện tử,2001/06/13,tu.bh191643@sis.hust.edu.vn,2
+20200547,Bùi Hoàng Tú,Nam,Viện Công nghệ Thông tin và Truyền thông,2002/07/25,tu.bh200547@sis.hust.edu.vn,3
+20193951,Bùi Hoàng Tuấn,Nam,Trường Cơ khí,2001/12/11,tuan.bh193951@sis.hust.edu.vn,0
+20206280,Bùi Hồng Giang,Nữ,Viện Toán ứng dụng và Tin học,2002/06/05,giang.bh206280@sis.hust.edu.vn,0
+20193541,Bùi Hồng Khuyên,Nam,Viện Ngoại ngữ,2001/02/15,khuyen.bh193541@sis.hust.edu.vn,1
+20182882,Bùi Hồng Việt,Nam,Trường Điện - Điện tử,2000/10/30,viet.bh182882@sis.hust.edu.vn,0

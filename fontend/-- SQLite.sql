@@ -123,5 +123,5 @@ SELECT MaSach, TenSach, TenTacGia, MaNXB, SoLuongConLai FROM Sach
 WHERE Sach.TenTacGia like '%Mac%'
 ORDER BY SoLuongConLai DESC
 
-
+DELETE FROM SinhVien
 
