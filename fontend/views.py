@@ -287,12 +287,14 @@ def staff_upd_muontra(MSNV):
             muontra.NgayTraSach = NgayTraSach
             muontra.TinhTrang = TinhTrang
             if TinhTrang == "Đã trả":
-                sach.SoLuongBanDau += -1
+                sach.SoLuongDuocMuon -= 1
+                sach.SoLuongConLai +=1
             db.session.commit()
             
         else:
             muontra = MuonTraSach(MaMuon = MaMuon,MSSV = MSSV,MSNV = MSNV,MaSach=MaSach,NgayMuon=NgayMuon,ThoiHanMuon=30,NgayTraSach=NgayTraSach,TinhTrang=TinhTrang)
             sach.SoLuongDuocMuon += 1
+            sach.SoLuongConLai -=1
             db.session.add(muontra)
             db.session.commit()
 
