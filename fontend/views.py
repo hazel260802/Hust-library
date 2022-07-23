@@ -1,7 +1,7 @@
 #in the views.py  inside the website folder
 from flask import Blueprint, render_template, request, flash, redirect, url_for, jsonify
 from flask_login import login_required, current_user
-from .models import SinhVien, Sach, MuonTraSach, NhanVien, AddBook, DelBook
+from .models import SinhVien, Sach, MuonTraSach, NhanVien, AddBook, DelBook, UpdMuonTra
 from . import db
 from sqlalchemy import or_
 from .form import SearchForm
@@ -226,4 +226,83 @@ def staff_ds_muccanhcao(MSNV):
     # books = MuonTraSach.query.filter_by(MSSV=MSSV).all()
     # sach= Sach.query.filter_by(books.MaSach).all()
     return render_template("nvdscanhcao.html", nhanVien=current_user, MSNV = MSNV, sinhviens = sinhviens, length = len(sinhviens),sort=sort)
-    #--------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------
+#-----------------------UpdateMuontra--------------------------------------------------------
+@views.route("/staff_muontra/<int:MSNV>")
+@login_required
+def staff_muontra(MSNV):
+    nhanVien = NhanVien.query.filter_by(MSNV=MSNV).first()
+    muontras = MuonTraSach.query.all()
+    if not nhanVien:
+        flash('No user with that username exists. ', category='error')
+        return redirect(url_for('views.home'))
+    if not muontras:
+        flash('No user with that username exists.', category='error')
+        return redirect(url_for('views.home'))
+    
+    if muontras :
+        sort = request.args.get('sort')
+        # print(sort)
+        if sort == 'MaMuon':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.MaMuon.asc()).all()
+        if sort == 'MSSV':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.MSSV.asc()).all()
+        if sort == 'MSNV':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.MSNV.asc()).all()
+        if sort == 'MaSach':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.MaSach.asc()).all()
+        if sort == 'NgayMuon':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.NgayMuon.desc()).all()
+        if sort == 'NgayTraSach':
+            muontras = MuonTraSach.query.order_by(MuonTraSach.NgayTraSach.desc()).all()
+    return render_template("StaffMuontra.html", nhanVien=current_user, MSNV = MSNV, muontras=muontras, length = len(muontras),sort=sort)
+
+@views.route("/staff_upd_muontra/<int:MSNV>", methods=['GET', 'POST'])
+@login_required
+def staff_upd_muontra(MSNV):
+    nhanVien = NhanVien.query.filter_by(MSNV=MSNV).first()
+    if not nhanVien:
+        flash('No user with that username exists. ', category='error')
+        return redirect(url_for('views.home'))
+    
+    
+    form1 = UpdMuonTra()
+    if form1.validate_on_submit():
+        MaMuon = request.form['MaMuon']
+        muontra = MuonTraSach.query.filter_by(MaMuon=MaMuon).first()
+        MSSV = request.form['MSSV']
+        MSNV = request.form['MSNV']
+        MaSach = request.form['MaSach']
+        sach = Sach.query.filter_by(MaSach=MaSach).first()
+        NgayMuon = request.form['NgayMuon']
+        NgayTraSach = request.form['NgayTraSach'] 
+        TinhTrang = request.form['TinhTrang'] 
+
+        if muontra:
+            muontra.MaMuon = int(MaMuon)
+            muontra.MSSV = int(MSSV)
+            muontra.MSNV = int(MSNV)
+            muontra.MaSach = MaSach
+            muontra.NgayMuon = NgayMuon
+            muontra.NgayTraSach = NgayTraSach
+            muontra.TinhTrang = TinhTrang
+            if TinhTrang == "Đã trả":
+                sach.SoLuongBanDau += -1
+            db.session.commit()
+            
+        else:
+            muontra = MuonTraSach(MaMuon = MaMuon,MSSV = MSSV,MSNV = MSNV,MaSach=MaSach,NgayMuon=NgayMuon,ThoiHanMuon=30,NgayTraSach=NgayTraSach,TinhTrang=TinhTrang)
+            sach.SoLuongDuocMuon += 1
+            db.session.add(muontra)
+            db.session.commit()
+
+        message = f"The data for MaMuon {MaMuon} has been submitted."
+        return render_template('UpdateMuontra.html',nhanVien=current_user,MSNV = MSNV, message=message)
+    else:
+        for field, errors in form1.errors.items():
+            for error in errors:
+                flash("Error in {}: {}".format(
+                    getattr(form1, field).label.text,
+                    error
+                ), 'eror')
+        return render_template('UpdateMuontra.html',nhanVien=current_user,MSNV = MSNV, form1=form1)

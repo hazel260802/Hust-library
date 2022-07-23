@@ -13,8 +13,8 @@ from sqlalchemy.orm import Session, aliased
 from sqlalchemy.ext.hybrid import hybrid_property, hybrid_method
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, IntegerField, SelectField, HiddenField
-from wtforms.validators import DataRequired, InputRequired
+from wtforms import StringField, SubmitField, IntegerField, SelectField, HiddenField, DateField
+from wtforms.validators import DataRequired, InputRequired, Optional
 
 
 Base = declarative_base()
@@ -156,3 +156,16 @@ class DelBook(FlaskForm):
 	id_field = HiddenField()
 	MaSach = StringField('Mã Số Sách',[ InputRequired()])
 	submit = SubmitField('Xóa')
+
+
+class UpdMuonTra(FlaskForm):
+	id_field = HiddenField()
+	MaMuon= StringField('Mã Mượn',[ InputRequired()])
+	MSSV= StringField('Mã Sinh Viên',[ InputRequired()])
+	MSNV= StringField('Mã Nhân Viên',[ InputRequired()])
+	MaSach= StringField('Mã Số Sách',[ InputRequired()])
+	NgayMuon= DateField('Ngày Mượn',[ InputRequired()],format='%Y/%m/%d')
+	NgayTraSach= DateField('Ngày Trả Sách',[Optional()],format='%Y/%m/%d')
+	TinhTrang = SelectField('Tình Trạng',[InputRequired()],
+		choices=[('Chưa trả'),('Đã trả')])
+	submit = SubmitField('Cập nhật')
